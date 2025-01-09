@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom global styles */
+
+body {
+    @apply bg-white text-gray-800;
+}
+
+nav ul li a.active {
+    @apply font-bold;
+}
